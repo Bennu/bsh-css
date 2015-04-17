@@ -1,0 +1,101 @@
+//Body
+
+/*[class*='columna-'] {
+	background:red;
+	border:1px solid #FFF;
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);
+
+html{
+	height:100%;
+}
+body{
+	min-height:100%;
+}
+a{
+	text-decoration:none;
+	color:$color-bienvenida;
+	&:hover{
+		text-decoration:underline;
+	}
+}
+
+ul{
+	@include reset-lista;
+	word-wrap: break-word;
+}
+
+#bienvenida{
+	margin-bottom:20px;
+}
+
+.texto-bienvenida{
+	color:$color-bienvenida;
+}
+
+pre{
+	color:$color-bienvenida;
+}
+
+/***Clases Elementos***/
+
+.default{
+	color:$color-default;
+}
+.folder{
+	color:$color-folder;
+	font-weight:$fuente-bold;
+}
+.header-folder{
+	color:$color-header-folder;
+}
+.sh{
+	color:$color-sh;
+	font-weight:$fuente-bold;
+}
+.ln{
+	color:$color-ln;
+	font-weight:$fuente-bold;
+}
+.peso{
+	color:$color-peso;
+}
+.usuario{
+	color:$color-sh;
+}
+.host{
+	color:$color-host;
+}
+.info{
+	color:$color-info;
+}
+
+.head-list{
+	color: $color-head-list;
+}
+
+/***Input****/
+
+.input-cmd{
+	font-family: 'Ubuntu', sans-serif;
+	background:transparent;
+	border:none;
+	outline:0;
+	color:$color-default;
+	cursor:text;
+	font-size:1em;
+}
+
+/****Clearfix****/
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}

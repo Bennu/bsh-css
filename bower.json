@@ -1,0 +1,30 @@
+{
+  "name": "intercambios",
+  "version": "0.0.1",
+  "main": "dist/assets/css/application.min.css",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "www.bennu.cl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "grunt",
+    "Gemfile*",
+    "*.html",    
+    "Gruntfile.js",
+    "*.md",
+    "package.json"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.2.0"
+  }
+}

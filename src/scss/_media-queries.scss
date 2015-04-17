@@ -1,0 +1,120 @@
+/* Custom, iPhone Retina */ 
+
+@media #{$breakpoint-320} {
+    .container {      
+        width: 98%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columnas {      
+        .columna-#{$i} {         
+            width: 100% / $grid-columnas * $i;   
+            }           
+        }
+    .columna-2{
+        width:30%;
+    }
+    .columna-11{
+        width:50%;
+    }
+    .input-cmd{
+        width:100px;
+    }
+    .columna-3{
+        width:100%;
+    }
+    }
+
+/* Extra Small Devices, Phones */ 
+
+@media #{$breakpoint-480} {
+    .container {      
+        width: 98%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columnas {      
+        .columna-#{$i} {         
+            width: 100% / $grid-columnas * $i;   
+            }           
+        }
+    .columna-2{
+        width:30%;
+    }
+    .columna-11{
+        width:50%;
+    }
+
+    .input-cmd{
+        width:200px;
+    }
+
+    .columna-3{
+        width:33%;
+        }   
+    }
+
+/* Small Devices, Tablets */
+
+@media #{$breakpoint-768} {
+    .container {      
+        width: 98%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columnas {      
+        .columna-#{$i} {         
+            width: 100% / $grid-columnas * $i;   
+            }           
+        }
+    .columna-2{
+        width:30%;
+    }
+    .columna-11{
+        width:50%;
+    }
+
+    .input-cmd{
+        width:300px;
+    } 
+    }
+
+/* Medium Devices, Desktops */
+
+@media #{$breakpoint-992} {
+    .container {      
+        width: 98%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columnas {      
+        .columna-#{$i} {         
+            width: 100% / $grid-columnas * $i;   
+            }           
+        }   
+    }
+
+/* Medium Devices, Desktops */
+
+@media #{$breakpoint-1024} {
+    .container {      
+        width: 98%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columnas {      
+        .columna-#{$i} {         
+            width: 100% / $grid-columnas * $i;   
+            }           
+        }   
+    }
+
+/* Large Devices, Wide Screens */
+
+@media #{$breakpoint-1200} {
+    .container {      
+        width: 98%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columnas {      
+        .columna-#{$i} {         
+            width: 100% / $grid-columnas * $i;   
+            }           
+        }   
+    }
+

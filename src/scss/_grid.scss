@@ -1,0 +1,33 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    @include border-box;
+    }
+ 
+.container {
+    width: 98%;
+    margin: 0 auto;
+    display:table-row;
+    }
+ 
+.container, .fila, .wrapper {
+    @extend %clearfix;
+    }
+      
+[class*='columna-'] {
+    float: left;
+    padding: 0;
+    width: 100%;
+    min-height: 1px;
+    display:inline-block;
+    }   
+ 
+ .wrapper{
+    font-family: 'Ubuntu', sans-serif;
+    background:$color-fondo;
+    color:$color-default;
+    line-height:1.2em;
+    height:100%;
+    width:100%;
+    display:table;
+}
