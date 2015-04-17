@@ -11,15 +11,12 @@
   clear: both;
 }
 
-/*[class*='columna-'] {
-	background:red;
-	border:1px solid #FFF;
-}*/
 html {
   height: 100%;
 }
 
 body {
+  background: #020202;
   min-height: 100%;
 }
 
@@ -146,8 +143,9 @@ pre {
   color: #999;
   line-height: 1.2em;
   height: 100%;
-  width: 100%;
+  width: 98%;
   display: table;
+  margin: 0 auto;
 }
 
 /* Custom, iPhone Retina */
