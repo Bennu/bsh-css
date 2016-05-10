@@ -62,7 +62,7 @@ pre {
 }
 
 .sh {
-  color: #0F0;
+  color: blue;
   font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ pre {
 }
 
 .usuario {
-  color: #0F0;
+  color: blue;
 }
 
 .host {
